@@ -34,6 +34,8 @@ This project demonstrates the speed control of a DC motor using Pulse Width Modu
 3. **Condition 1 (Safe Zone):** If the distance is **greater than 20 cm**, the Arduino sends a PWM signal of 150 to the L298N driver. The motor runs smoothly, and the LCD displays `"Motor RUNNING"`.
 4. **Condition 2 (Obstacle Detected):** If the distance is **less than or equal to 20 cm**, the PWM signal is immediately dropped to 0. The motor stops to prevent a collision, and the LCD displays `"Motor STOP"`.
 
+   https://github.com/user-attachments/assets/0943c261-20b1-4479-943b-18517b3a0a18
+
 ## 💻 Source Code
 ```cpp
 #include <Wire.h>
