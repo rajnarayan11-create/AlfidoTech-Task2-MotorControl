@@ -16,6 +16,8 @@ This project demonstrates the speed control of a DC motor using Pulse Width Modu
 * **Actuator:** DC Gear Motor
 * **Power Supply:** External Battery/Power Source for L298N
 
+  <img width="1600" height="805" alt="Image" src="https://github.com/user-attachments/assets/c782f42c-f0fa-4778-87e2-d32d0c7b0a7c" />
+
 ## 🔌 Pin Mapping
 
 | Component | Pin Name | Arduino Pin |
